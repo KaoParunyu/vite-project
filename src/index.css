@@ -1,0 +1,30 @@
+/* @import url('https://fonts.cdnfonts.com/css/pp-neue-montreal'); */
+@font-face {
+  font-family: "Neue Montreal Medium";
+  src: url(assets/fonts/ppneuemontreal-medium.otf);
+  
+}
+@font-face{
+  font-family: "Neue Montreal Regular";
+  src: url(assets/fonts/NeueMontreal-Regular.woff);
+
+}
+
+body {
+  font-family: 'Neue Montreal Medium', serif;
+  margin: 0; 
+                                     
+}
+* {
+  box-sizing: border-box;
+ 
+}
+ #main-layout {
+  /* width:100vw;
+  height:100vh; */
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}               
+

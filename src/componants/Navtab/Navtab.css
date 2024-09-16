@@ -1,0 +1,64 @@
+#navtab
+{
+    display:flex;
+    flex-direction: row;
+    padding: 30px ;
+    position: fixed ;
+ width: 100%;   
+justify-content: center;
+z-index: 1;
+}
+
+
+ .tabscontent {
+     display: none;
+
+    
+  } 
+
+  .tab {
+    background-color: rgba(232, 229, 228, 0.5);
+    border-radius: 100px;
+    padding: 4px;
+    gap: 4px;
+    width: 300px;
+    height: 48px;
+    align-items: center;
+    display: flex;
+
+    flex-flow: row;
+    backdrop-filter: blur(16px);
+
+
+   
+  }
+
+  /* Style the buttons inside the tab */
+.tab button {
+    background-color: initial;
+    float:  center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 11px 11px;
+    transition: 1s;
+    font-size: 14px;
+    border-radius: 40px;
+    width: 100%;
+    font-family: 'Neue Montreal Regular', serif;
+  }
+  
+
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #9433c9 !important;
+  }
+  /* เพิ่มสไตล์สำหรับแท็บที่ active */
+
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ffffff;
+  }
+
+
