@@ -1,14 +1,38 @@
 #navtab
 {
-    display:flex;
-    flex-direction: row;
+    /* display:flex;
+    flex-direction: column;
     padding: 30px ;
     position: fixed ;
- width: 100%;   
+    
 justify-content: center;
 z-index: 1;
+align-items: center; */
+width: 100%;
+height: auto;
+}
+.navtab{
+
+  display:flex;
+  flex-direction: column;
+  padding: 30px ;
+  position: fixed ;
+width: 100%;   
+justify-content: center;
+z-index: 101;
+align-items: center;
+
 }
 
+.navtabspacing {
+
+  height: 110px;
+   width: 100% ;
+  display:flex;
+  flex-Direction:row;
+
+
+}
 
  .tabscontent {
      display: none;
@@ -25,7 +49,7 @@ z-index: 1;
     height: 48px;
     align-items: center;
     display: flex;
-
+    /* z-index: 1; */
     flex-flow: row;
     backdrop-filter: blur(16px);
 

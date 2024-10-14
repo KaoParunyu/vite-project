@@ -1,17 +1,14 @@
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <section id="Homes" className="tabscontent">
-
-      <div style={{ height: "110px", width: "100%" }}></div>
-
-      <div id="h"  style={{ width: "100%", height: "100%" }}>
-
+      {/* <div style={{ height: "110px", width: "100%" }}></div> */}
+      <div className="h" >
         <div className="heading">
-          <div></div>
-          <div className="head wow animate__animated animate__fadeInUp">
-            A brand and product designer working with clients globally
+          {/* <div></div> */}
+          <div className="head ">A brand and product designer working with clients globally
           </div>
 
           <div className="subhead">
@@ -23,7 +20,6 @@ function Home() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-               
               }}
             >
               <div>Expertise</div>
@@ -75,54 +71,438 @@ function Home() {
           </div>
           <div></div>
         </div>
-
       </div>
-
       <div className="gallery">
-        <div className="g1">
-          
-                        <div className="gname">
-                          <div>Aire</div>
-                          </div>
 
-            <div className="g3">
-              <div className="g3dot1">
-              <img
-              src="https://framerusercontent.com/images/kfr022WaJ8YJUyZFmdwCB3pXhs.jpg?scale-down-to=1024"
-              alt=""/>
-              </div>
-
-           </div>
-            <div  className="g2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgb(0, 0, 0)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <line x1="7" y1="17" x2="17" y2="7"></line>
-                <polyline points="7 7 17 7 17 17"></polyline>
-            </svg>       
-            </div>
-
-        </div>
-
-
-
-
-        <div className="g1">
-          <div className="g3">
-            <img
-              src="https://framerusercontent.com/images/QVKFKT3dyGxloXfzzpurVKNMM6M.jpg?scale-down-to=1024"
-              alt=""
-            />
-          </div>
-        </div>
         
+        <div className="g1">
+        <Link to="/aire"> <a href="aire.jsx"></a>
+          <div className="gname">
+            <div>Aire</div>
+          </div>
+
+          <div className="g3">
+            <div className="g3dot1">
+              <img
+                src="https://framerusercontent.com/images/kfr022WaJ8YJUyZFmdwCB3pXhs.jpg?scale-down-to=1024"
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="g2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="rgb(0, 0, 0)"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </div>
+          </Link>
+        </div>
+
+
+        <div className="g1">
+        <Link to="/Correlated"> 
+          <div className="gname">
+            <div>Correlated</div>
+          </div>
+
+          <div className="g3">
+            <div className="g3dot1">
+              <img
+                src="https://framerusercontent.com/images/QVKFKT3dyGxloXfzzpurVKNMM6M.jpg?scale-down-to=1024"
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="g2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="rgb(0, 0, 0)"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </div>
+          </Link>
+        </div>
+
+
       </div>
-sssssssss
-  
+      <div className="gallery">
+
+        
+<div className="g1">
+<Link to="/aire"> <a href="aire.jsx"></a>
+  <div className="gname">
+    <div>Aire</div>
+  </div>
+
+  <div className="g3">
+    <div className="g3dot1">
+      <img
+        src="https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=2048"
+        alt=""
+      />
+    </div>
+  </div>
+  <div className="g2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="rgb(0, 0, 0)"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <line x1="7" y1="17" x2="17" y2="7"></line>
+      <polyline points="7 7 17 7 17 17"></polyline>
+    </svg>
+  </div>
+  </Link>
+</div>
 
 
+<div className="g1">
+<Link to="/aire"> <a href="aire.jsx"></a>
+  <div className="gname">
+    <div>Aire</div>
+  </div>
 
-<div style={{height:"180px",width:"180px"}}></div>
+  <div className="g3">
+    <div className="g3dot1">
+      <img
+        src="https://framerusercontent.com/images/BAXywubxN8sAhfJg3AgGgFI.jpg?scale-down-to=1024"
+        alt=""
+      />
+    </div>
+  </div>
+  <div className="g2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="rgb(0, 0, 0)"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <line x1="7" y1="17" x2="17" y2="7"></line>
+      <polyline points="7 7 17 7 17 17"></polyline>
+    </svg>
+  </div>
+  </Link>
+</div>
 
 
+</div>     <div className="gallery">
+
+        
+<div className="g1">
+<Link to="/aire"> 
+  <div className="gname">
+    <div>Aire</div>
+  </div>
+
+  <div className="g3">
+    <div className="g3dot1">
+      <video
+        src="https://framerusercontent.com/assets/XuzMZ3Z1QQHKltPqRjzGnsWs27M.mp4" loop autoPlay playsInline muted
+        alt=""
+      />
+    </div>
+  </div>
+  <div className="g2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="rgb(0, 0, 0)"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <line x1="7" y1="17" x2="17" y2="7"></line>
+      <polyline points="7 7 17 7 17 17"></polyline>
+    </svg>
+  </div>
+  </Link>
+</div>
+
+
+<div className="g1">
+<Link to="/aire"> 
+  <div className="gname">
+    <div>Aire</div>
+  </div>
+
+  <div className="g3">
+    <div className="g3dot1">
+      <img
+        src="https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024"
+        alt=""
+      />
+    </div>
+  </div>
+  <div className="g2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="rgb(0, 0, 0)"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <line x1="7" y1="17" x2="17" y2="7"></line>
+      <polyline points="7 7 17 7 17 17"></polyline>
+    </svg>
+  </div>
+  </Link>
+</div>
+
+
+</div>     <div className="gallery">
+
+        
+<div className="g1">
+<Link to="/aire"> <a href="aire.jsx"></a>
+  <div className="gname">
+    <div>Aire</div>
+  </div>
+
+  <div className="g3">
+    <div className="g3dot1">
+      <img
+        src="https://framerusercontent.com/images/e3moUZXfgtjYQY4ILakIMaz4n7s.jpg?scale-down-to=2048"
+        alt=""
+      />
+    </div>
+  </div>
+  <div className="g2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="rgb(0, 0, 0)"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <line x1="7" y1="17" x2="17" y2="7"></line>
+      <polyline points="7 7 17 7 17 17"></polyline>
+    </svg>
+  </div>
+  </Link>
+</div>
+
+
+<div className="g1">
+<Link to="/aire"> <a href="aire.jsx"></a>
+  <div className="gname">
+    <div>Aire</div>
+  </div>
+
+  <div className="g3">
+    <div className="g3dot1">
+      <video
+        src="https://framerusercontent.com/assets/SGjFvgcbK7s4yKh0xwuNjriMNII.mp4" muted autoPlay  loop playsInline
+        alt=""
+      />
+    </div>
+  </div>
+  <div className="g2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="rgb(0, 0, 0)"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <line x1="7" y1="17" x2="17" y2="7"></line>
+      <polyline points="7 7 17 7 17 17"></polyline>
+    </svg>
+  </div>
+  </Link>
+</div>
+
+
+</div>     <div className="gallery">
+
+        
+<div className="g1">
+<Link to="/aire"> <a href="aire.jsx"></a>
+  <div className="gname">
+    <div>Aire</div>
+  </div>
+
+  <div className="g3">
+    <div className="g3dot1">
+      <img
+        src="https://framerusercontent.com/images/aH1eUgCIIIrbJF7TUlaKAehoI.jpg?scale-down-to=1024"
+        alt=""
+      />
+    </div>
+  </div>
+  <div className="g2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="rgb(0, 0, 0)"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <line x1="7" y1="17" x2="17" y2="7"></line>
+      <polyline points="7 7 17 7 17 17"></polyline>
+    </svg>
+  </div>
+  </Link>
+</div>
+
+
+<div className="g1">
+<Link to="/aire"> <a href="aire.jsx"></a>
+  <div className="gname">
+    <div>Aire</div>
+  </div>
+
+  <div className="g3">
+    <div className="g3dot1">
+      <img
+        src="https://framerusercontent.com/images/UbS7rWmAwWxjtwM7oaWwRuGo.jpg?scale-down-to=1024"
+        alt=""
+      />
+    </div>
+  </div>
+  <div className="g2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="rgb(0, 0, 0)"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <line x1="7" y1="17" x2="17" y2="7"></line>
+      <polyline points="7 7 17 7 17 17"></polyline>
+    </svg>
+  </div>
+  </Link>
+</div>
+
+
+</div>    
+
+ <div className="gallery" style={{padding:"40px"}}>
+
+        
+<div className="g1">
+<Link to="/aire"> <a href="aire.jsx"></a>
+  <div className="gname">
+    <div>Aire</div>
+  </div>
+
+  <div className="g3">
+    <div className="g3dot1">
+      <img
+        src="https://framerusercontent.com/images/hQVBeiDNGU2TfeDJALuhawlcto.jpg?scale-down-to=1024"
+        alt=""
+      />
+    </div>
+  </div>
+  <div className="g2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="rgb(0, 0, 0)"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <line x1="7" y1="17" x2="17" y2="7"></line>
+      <polyline points="7 7 17 7 17 17"></polyline>
+    </svg>
+  </div>
+  </Link>
+</div>
+
+
+<div className="g1">
+<Link to="/aire"> <a href="aire.jsx"></a>
+  <div className="gname">
+    <div>Aire</div>
+  </div>
+
+  <div className="g3">
+    <div className="g3dot1">
+      <video
+        src="https://framerusercontent.com/assets/NieGBlxBdgpz9QCHV5Aj89rWjVg.mp4" muted loop autoPlay playsInline
+        alt=""
+      />
+    </div>
+  </div>
+  <div className="g2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="rgb(0, 0, 0)"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <line x1="7" y1="17" x2="17" y2="7"></line>
+      <polyline points="7 7 17 7 17 17"></polyline>
+    </svg>
+  </div>
+  </Link>
+</div>
+
+
+</div>
+      
     </section>
   );
 }

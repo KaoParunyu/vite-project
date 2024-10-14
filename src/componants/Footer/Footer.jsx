@@ -1,11 +1,11 @@
-import "./Contact.css"
-function Contact() {
-    return (
-      <div id="Contacts" className="tabscontent" style={{width:"100%", height:"100%"}} >
-        <div className="bcontacts">
-  <div className="contactme" style={{height:"70%"}}>
-        <div style={{fontSize:"72px"}}> Let's work together.</div>
-        <div style={{fontSize:"72px"}}>Get in touch.</div>
+/* eslint-disable react/no-unescaped-entities */
+import "./Footer.css";
+function Footer() {
+  return (
+    <section className="footer">
+      <div className="contactme">
+        <div> Let's work together.</div>
+        <div>Get in touch.</div>
       </div>
       <div className="foot">
         <div style={{display:"flex",flexDirection:"row",alignItems:"center", gap:"10px" ,paddingLeft:"20px"}}>
@@ -53,9 +53,8 @@ function Contact() {
           <div>Mail</div>
         </div>
       </div>
-      </div>
-      </div>
-    )
-  }
-  
-  export default Contact
+    </section>
+  );
+}
+
+export default Footer;

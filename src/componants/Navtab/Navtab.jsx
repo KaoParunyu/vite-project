@@ -28,6 +28,9 @@ function Navtab() {
 
   return (
     <section id="navtab">
+
+     
+      <div className="navtab">
       <div className="tab">
         <button
           className="tablinks"
@@ -50,6 +53,8 @@ function Navtab() {
           Contact
         </button>
       </div>
+      </div>
+      <div className="navtabspacing"></div>
     </section>
   );
 }

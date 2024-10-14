@@ -1,0 +1,84 @@
+.foot{
+    display: flex;
+    flex-direction: row;
+    padding:0 0px  0;
+    justify-content: space-between;
+    padding: 40px;
+    height: 97px;;
+}
+
+.social{
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    font-family: "Neue Montreal Regular";
+    font-size: 14px;
+  }
+
+.contactme{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 38px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    padding: 60px;
+    height: 348px;
+}
+
+.footer{
+    line-height: 1.3em;
+}
+
+
+
+.iconfoot{
+    /* animation: moveIcon 0.4s linear infinite; */
+    width: 30px;
+    height: 30px;
+}
+
+
+.animated-svg {
+    width: 100%;
+    height: 100%;
+    transform: translate3d(0px, 0px, 0px);
+  }
+  
+  @keyframes animate-transform {
+    0% {
+        transform: matrix(-0.5, -1, 1, -0.5, 400, 400); 
+      }
+      50% {
+        transform: matrix(1, 0, 0, 1, 400, 400);
+      }
+      100% {
+        transform: matrix(0.5, 1, -1, 0.5, 400, 400); 
+      }
+  }
+  
+  @keyframes animate-strokeWidth {
+    0% {
+      stroke-width: 20;
+    }
+    50% {
+      stroke-width: 100;
+    }
+    100% {
+      stroke-width: 180;
+    }
+  }
+  
+  
+
+
+  
+  .animated-group {
+    animation: animate-transform 5s  infinite ease-in-out; 
+  }
+  
+  .animated-path {
+    animation: animate-strokeWidth 5s  infinite  ; 
+    stroke-opacity: 1;
+  }
