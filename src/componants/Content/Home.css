@@ -3,6 +3,36 @@
 
      
 } */
+ 
+@media (max-width: 480px) {
+
+    .heading{
+        padding: 40px;
+        gap: 40px;
+        display: flex!important;
+        flex-direction: column!important;
+        justify-content: center!important;
+        align-items: center!important;
+        width: 800px!important;
+        height: 487.2px;
+        
+      
+    }
+    .head{
+    
+        font-size: 20px !important;
+        text-align: center!important;
+        letter-spacing: -.2px;
+        line-height: 1.2em;
+        max-width: 700px !important;
+        margin-top: 45px;
+       
+    }
+    #Homes{
+        width: 100%!important;
+    }
+    
+  }
 
 .h{
 

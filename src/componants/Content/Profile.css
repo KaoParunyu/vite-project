@@ -1,9 +1,13 @@
-#Profile{
+@media (max-width:480px){
+    #Profiles{
 
+    width: 100% !important;
 
-    display: flex;
-    flex-direction: column;
 }
+}
+
+
+
 
 
 
@@ -13,7 +17,7 @@
     place-content: center;
     align-items: center;
     font-size: 72px;
-    width: 1400px;
+    max-width: 1400px;
     height: 70vh;
 
 

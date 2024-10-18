@@ -11,6 +11,29 @@ align-items: center; */
 width: 100%;
 height: auto;
 }
+
+
+@media (max-width: 480px) {
+  .navtab{
+
+    display:flex!important;
+    flex-direction: column!important;
+    padding: 30px !important;
+    position: fixed !important;
+  width: 100%!important;
+  justify-content: center!important;
+  align-items: center!important;
+  
+  }
+  
+}
+
+
+
+
+
+
+
 .navtab{
 
   display:flex;
