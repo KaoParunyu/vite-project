@@ -1,11 +1,11 @@
 import "./Contact.css"
 function Contact() {
     return (
-      <div id="Contacts" className="tabscontent" style={{width:"100%", height:"100%"}} >
-        <div className="bcontacts">
+      <div id="Contacts" className="tabscontent  " style={{width:"100%", height:"100%"}} >
+        <div className="bcontacts  wow animate__animated animate__fadeInUp">
   <div className="contactme" style={{height:"70%"}}>
-        <div style={{fontSize:"72px"}}> Let's work together.</div>
-        <div style={{fontSize:"72px"}}>Get in touch.</div>
+        <div style={{fontSize:"72px"}}> This's my pratice frontend</div>
+        <div style={{fontSize:"72px"}}><a href="mailto:youremail@example.com" style={{color:"grey",textDecorationLine:"none"}}>Get in touch.</a>   </div>
       </div>
       <div className="foot">
         <div style={{display:"flex",flexDirection:"row",alignItems:"center", gap:"10px" ,paddingLeft:"20px"}}>

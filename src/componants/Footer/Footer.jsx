@@ -3,9 +3,10 @@ import "./Footer.css";
 function Footer() {
   return (
     <section className="footer">
-      <div className="contactme">
+      <div className="contactme  wow animate__animated animate__fadeInUp">
         <div> Let's work together.</div>
-        <div>Get in touch.</div>
+        <div >
+          <a href="mailto:" style={{color:"grey",textDecorationLine:"none"}}>Get in touch</a>.</div>
       </div>
       <div className="foot">
         <div style={{display:"flex",flexDirection:"row",alignItems:"center", gap:"10px" ,paddingLeft:"20px"}}>

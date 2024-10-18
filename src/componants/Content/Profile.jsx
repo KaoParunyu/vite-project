@@ -2,7 +2,8 @@
 import "./Profile.css";
 function Profile() {
   return (
-    <section id="Profiles" className="tabscontent">
+    <section id="Profiles" className="tabscontent  wow animate__animated animate__fadeInUp">
+      <div className="wow animate__animated animate__fadeInUp">
       <div className="oli">Hey 👋🏼 I'm Oli </div>
       <div className="galoli">
         <div>
@@ -163,6 +164,7 @@ function Profile() {
           <img src="https://framerusercontent.com/images/370YdQkcdjKWJ5KnsDqECHExB3c.png?scale-down-to=512" alt="" />
         </div>
       
+      </div>
       </div>
     </section>
   );
