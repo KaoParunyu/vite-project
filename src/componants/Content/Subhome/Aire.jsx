@@ -4,7 +4,7 @@ import Footer from "../../Footer/Footer";
 import { Link } from "react-router-dom";
 function Aire() {
   return (
-    <section className="aire">
+    <section className="aire  ">
       <div className="close">
         <Link to="/" > 
         <div
