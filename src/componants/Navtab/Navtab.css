@@ -104,7 +104,7 @@ align-items: center;
   /* เพิ่มสไตล์สำหรับแท็บที่ active */
 
   /* Create an active/current tablink class */
-  .tab button.active {
+  .tablinks.active {
     background-color: #ffffff;
   }
 

@@ -2,7 +2,7 @@
 import "./Profile.css";
 function Profile() {
   return (
-    <section id="Profiles" className="tabscontent  wow animate__animated animate__fadeInUp">
+    <section id="Profiles" className="tabscontent ">
       <div className="wow animate__animated animate__fadeInUp">
       <div className="oli">Hey 👋🏼 I'm Oli </div>
       <div className="galoli">
